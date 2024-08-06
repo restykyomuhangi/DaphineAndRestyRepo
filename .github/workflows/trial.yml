@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Automatically triggered test event"
-        
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -16,11 +16,9 @@ jobs:
         run: echo "Hello World"
 
       - name: Group members
-        run: echo "Daphine"
-        
-      - run: echo "Resty"
-
-        
+        run: |
+          echo "Daphine"
+          echo "Resty"   
 
         
     
