@@ -1,0 +1,27 @@
+
+
+name: Resty And Daphine
+run-name: Resty And Daphine Testing Github Action
+on: [push]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Automatically triggered test event"
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Say Hello
+        run: echo "Hello World"
+
+      - name: Group members
+        run: echo "Daphine"
+        
+      - run: echo "Resty"
+
+        
+
+        
+    
+          
